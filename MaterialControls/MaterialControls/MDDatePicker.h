@@ -28,6 +28,7 @@
 
 @interface MDDatePicker : UIView
 @property(weak, nonatomic) IBOutlet id<MDCalendarDelegate> delegate;
+@property(nonatomic) MDCalendar *calendar;
 @end
 
 #endif
